@@ -7,3 +7,4 @@ std::cout << "Студент: " << name << std::endl;
  std::cout << "Дата: 2026-09-10" << std::endl;
 return 0;
 }
+//27.10.26 сдача работы
