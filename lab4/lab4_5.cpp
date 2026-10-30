@@ -1,10 +1,10 @@
 #include <iomanip>  // Необходимо для std::setprecision
 #include <iostream>
-
+// калькулятор с выбором операции
 int main() {
     double a, b;
     char operation;
-
+    // ввод чисел и выбор операции
     std::cout << "Введите первое число: ";
     std::cin >> a;
     std::cout << "Введите второе число: ";
@@ -13,7 +13,7 @@ int main() {
     std::cin >> operation;
 
     std::cout << std::fixed << std::setprecision(2);
-
+    // вывод результатов  с помощью switch на основе выбранной операции
     switch (operation) {
         case '+':
             std::cout << "Результат: " << a + b << "\n";
