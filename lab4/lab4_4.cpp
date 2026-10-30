@@ -1,8 +1,10 @@
 #include <cmath>
 #include <iomanip>
 #include <iostream>
+// решение квадратного уравнения
 
 int main() {
+    // определение типа и ввод переменных
     double a, b, c;
     std::cout << "Введите a: ";
     std::cin >> a;
@@ -16,7 +18,7 @@ int main() {
     } else {
         double D = b * b - 4 * a * c;
 
-        std::cout << std::fixed << std::setprecision(2);
+        std::cout << std::fixed << std::setprecision(2);  // округление до 2 знаков после запятой
 
         if (D > 0) {
             double x1 = (-b + std::sqrt(D)) / (2 * a);
